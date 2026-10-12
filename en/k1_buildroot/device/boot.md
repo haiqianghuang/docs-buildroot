@@ -521,7 +521,7 @@ The platform supports **two main methods** for flashing firmware images:
 ##### Boot Media Selection
 
 - The hardware platform supports boot media selection via the **Boot Download Sel Switch** (DIP switch).
-  For how to use this switch, refer to the [Boot Download Sel & JTAG Sel](https://www.spacemit.com/community/document/info?lang=en&nodepath=hardware/eco/k1_muse_pi/pi_user_guide.md) section in the MUSE Pi user guide.
+  For how to use this switch, refer to the [Boot Download Sel & JTAG Sel](https://www.spacemit.com/community/document/info?lang=en&nodepath=ecohardware/k1_series/k1_muse_pi/pi_user_guide.md) section in the MUSE Pi user guide.
 
 - For other boards or custom solutions, please refer to their respective hardware manuals.
 
