@@ -4,6 +4,20 @@ sidebar_position: 1
 
 # Buildroot 1.0
 
+## v1.0.10 更新说明
+
+发布日期：2026-10-22
+
+### 主要更新
+
+- 支持 EtherCAT 网络模式切换
+- 支持 UFS WriteBooster 与 LPDDR5 更多速率档位
+- 支持第二启动设备 TLV 记录 SSD 序号
+- 修复 Multi-MSI 向量组被分散到多个 CPU 的问题
+- 修复挂起时 eDP 背光未关问题
+- 优化调整 LPDDR5 时序以提升 DDR 带宽
+- 优化调整 Pico 风扇档位与滞回曲线
+
 ## v1.0.9 更新说明
 
 发布日期：2026-09-18
