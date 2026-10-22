@@ -11,13 +11,12 @@ sidebar_position: 1
 ### 主要更新
 
 - 支持 EtherCAT 网络模式切换
-- 支持 UFS 写入加速与 LPDDR5 更多速率档位
-- 支持 CPPC 能效调控
-- 修复多核中断分配与睡眠唤醒异常
-- 修复 USB3 方向识别及休眠背光未关问题
-- 修复多处底层寄存器与内存访问异常
+- 支持 UFS WriteBooster 与 LPDDR5 更多速率档位
+- 支持第二启动设备 TLV 记录 SSD 序号
+- 修复 Multi-MSI 向量组被分散到多个 CPU 的问题
+- 修复挂起时 eDP 背光未关问题
 - 优化调整 LPDDR5 时序以提升 DDR 带宽
-- 优化固件传输效率并规范 Debian 打包流程
+- 优化调整 Pico 风扇档位与滞回曲线
 
 ## v1.0.9 更新说明
 
