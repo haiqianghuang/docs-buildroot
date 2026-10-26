@@ -257,7 +257,7 @@ K3方案定制根文件系统可通过修改`buildroot-ext/board/spacemit/k3/tar
 
 #### 板子有接入 EEPROM
 
-参考写号工具文档<https://www.spacemit.com/community/document/info?lang=zh&nodepath=tools/user_guide/flasher_user_guide.md>，将 DDR 和设备树等信息写入 EEPROM。
+参考写号工具文档<https://www.spacemit.com/community/document/info?lang=zh&nodepath=tools/user_guide/flasher_user_guide.md>，将 DDR型号和设备树的板号等信息写入 EEPROM。
 
 **注意**：
 
@@ -272,7 +272,7 @@ K3方案定制根文件系统可通过修改`buildroot-ext/board/spacemit/k3/tar
 make uboot-rebuild && make
 ```
 
-以下示例将 DDR 料号修改为单 rank、4 GB 的 `MT62F1G32D2DS`，并将默认方案设为 `k3_example`：
+以下示例将 DDR 料号修改为单 rank、4 GB 的 `MT62F1G32D2DS`，并将默认方案设为 `k3_example`，注意以下仅作为参考，需要根据实际来修改：
 
 ```diff
 user:~/workspace/k3_buildroot_sdk_pub/bsp-src/uboot-2022.10$ git diff arch/riscv/dts/k3_spl.dts include/

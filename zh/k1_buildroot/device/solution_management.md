@@ -164,7 +164,7 @@ bootfs和rootfs存储在SSD，按partition_universal.json文件`partitions`数�
 
 ### 板子有接入 EEPROM
 
-参考写号工具文档<https://www.spacemit.com/community/document/info?lang=zh&nodepath=tools/user_guide/flasher_user_guide.md>，将 DDR、CS 和设备树等信息写入 EEPROM。
+参考写号工具文档<https://www.spacemit.com/community/document/info?lang=zh&nodepath=tools/user_guide/flasher_user_guide.md>，将 DDR型号、DDR CS和设备树的板号等信息写入 EEPROM。
 
 **注意**：
 
@@ -182,7 +182,7 @@ bootfs和rootfs存储在SSD，按partition_universal.json文件`partitions`数�
 make uboot-rebuild && make
 ```
 
-以下示例将 DDR 配置为单 CS、LPDDR4，并将默认方案设为 `k1-x_example`：
+以下示例将 DDR 配置为单 CS、LPDDR4，并将默认板号设为 `k1-x_example`，注意以下仅作为参考，需要根据实际来修改：
 
 ```diff
 user:~/workspace/bianbu-linux-pub/bsp-src/uboot-2022.10$ git diff arch/riscv/dts/k1-x_spl.dts include/
